@@ -1,7 +1,8 @@
 # 智能自行车尾灯
-*本项目采用国产可视化仿真编程软件linkboy进行设计和编程。这个软件貌似使用的是基于python的语言，所以这里把代码贴出的同时po上项目截图。*
+*本项目采用国产可视化仿真编程软件linkboy进行设计和编程。这个软件貌似使用的是基于python的自主语言，所以这里把代码贴出的同时po上项目截图。*
 ***
-## 发射端代码
+## 发射端
+![Send.jpg](https://github.com/shiori233/Smart-taillight-for-bikes/blob/master/Send.jpg "send")
 ```
 #include <system\predefine.txt>
 #define $run$ run
@@ -125,7 +126,8 @@ void OS_VarInit()
 ```
 
 ***
-## 接收端代码
+## 接收端
+![Receive.jpg](https://github.com/shiori233/Smart-taillight-for-bikes/blob/master/Receive.jpg "receive")
 ```
 #include <system\predefine.txt>
 #define $run$ run
